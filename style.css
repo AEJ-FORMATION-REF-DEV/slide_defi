@@ -1,0 +1,58 @@
+body{
+	background-color: #444444;
+	font-family: sans-serif;
+}
+.container{
+	max-width: 600px;
+	margin:80px auto;
+	position: relative;
+    transition: all ease 0.5s;
+    color: #fff;
+}
+i{
+    color: #fff;
+    cursor: pointer;
+}
+.left-slide i{
+    float: left;
+    top:50%;
+    position: relative;
+}
+.right-slide i{
+    float: right;
+    top: 50%;
+    position: relative;
+}
+
+.container .left-slide{
+	left: 30px;
+}
+.container .right-slide{
+	right: 30px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+.container .slider-items .item{
+	display: none;
+	position: relative;
+    text-align: center;
+}
+
+
+.container .slider-items .item.active{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
